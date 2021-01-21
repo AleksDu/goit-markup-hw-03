@@ -118,8 +118,9 @@ color: #212121;
     color: teal;
 }
 
-.auth-nav .container{
+.auth-nav{
     display: flex;
+    margin-left: auto;
 }
 .auth-nav .item+.item{
 margin-left: 50px;
