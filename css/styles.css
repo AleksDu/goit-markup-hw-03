@@ -32,13 +32,15 @@ image{
   /* ========Header============ */
 .header .container{
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    border: 2px solid rgb(66, 27, 27);
 }
   .container{
-      width: 1200px;
-      padding-left: 15px;
-      padding-right: 15px;
-      margin: 0 auto;
+      
     }
 
     .site-nav .item+.item{
@@ -57,6 +59,8 @@ image{
     }
 .web{
 display: flex;
+margin-left: 15px;
+
 font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
@@ -71,11 +75,13 @@ color: #2196F3;
 .web:active{
     color: teal;
 }
-.logo{
+.header .logo{
 display: flex;
-/* margin-top: 24px;
-margin-left: 215px; */
-
+padding-top: 24px;
+padding-bottom: 25px;
+margin-right: 93px;
+width: 145px;
+height: 31px;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.192;
@@ -125,6 +131,10 @@ color: #212121;
 .auth-nav .item+.item{
 margin-left: 50px;
 }
+
+.header .auth-nav-contacts-link{
+    margin-left: auto;
+}
 .auth-nav-contacts-link{
 font-weight: 500;
 font-size: 14px;
@@ -150,18 +160,36 @@ color: var(--prymary-text-color);
 /* ========End Header============ */
 
 /* ========Studio Button on backend============ */
+.title-buton{
+    background-color: #2F303A;
+    height: 650px;
+;
+}
+
 .title-buton-title{
-   font-weight: 900;
+padding-left: 250px;
+padding-right: 250px;
+padding-top: 200px;
+margin-bottom: 30px;
+padding-bottom: 30px;
+
+font-weight: 900;
 font-size: 44px;
 line-height: 1.363;
-/* or 136% */
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF; 
 }
 
+
 .title-buton-buton{
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+margin-left: 582px;
+margin-right: 582px;
+background-color: #2196F3;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.875;
@@ -170,21 +198,39 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
-.title-buton-buton:hover, .title-buton-buton:focus,
+.title-buton-buton:hover, .title-buton-buton:focus{
+    color:#2196f3;
+    background-color: #fff;
+}
+
 .title-buton-title:hover, .title-buton-title:focus{
     color:#2196f3;
 }
 .title-buton-buton:active,
 .title-buton-title:active{
      color: #2196F3;
+     background-color: #fff;
 }
 /* ========End Studio Button on backend============ */
 
 /* ========Features============ */
+.features-items{
+margin-top: 94px;
+margin-bottom: 94px;
+margin-left: 115px;
+}
 
+.features{
+    display: flex;
+}
+.features-title+.features-title{
+}
 .features-title{
+    margin-bottom: 10px;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.142;
@@ -193,8 +239,13 @@ text-transform: uppercase;
 color: #212121;
 
 }
+.features-text+.features-text{
+    /* padding-left: 30px; */
+    width: calc((100%-150px)/4);
+}
 
 .features-text{
+    width: 270px;
     font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
