@@ -181,9 +181,9 @@ color: #FFFFFF;
 
 
 .title-buton-buton{
-    width: 200px;
-    height: 50px;
-    justify-content: center;
+width: 200px;
+height: 50px;
+justify-content: center;
 margin-left: 582px;
 margin-right: 582px;
 background-color: #2196F3;
@@ -348,20 +348,34 @@ border-radius: 0px 0px 4px 4px;
 /* ========Footer============ */
 .footer{
     background-color: #2F303A;
+    height: 252px;
 }
 .footer .container{
 width: 1230px;
 padding-left: 15px;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: auto;
+}
+.footer .web{
+display: flex;
+margin-left: 0px;
+
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #2196F3;
 }
 
 .footer .logo{
 display: flex;
-padding-top: 24px;
-padding-bottom: 25px;
-margin-right: 93px;
+padding-top: 60px;
+padding-right: 0;
+margin-right: auto;
 margin-top: 183px;
+margin-bottom: 20px;
 
 width: 145px;
 height: 31px;
@@ -378,7 +392,9 @@ color: #fff;
     color: teal;
 }
 .footer-address{
-    font-weight: normal;
+padding-top: 20px;
+padding-bottom: 9px;
+font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
 /* or 171% */
@@ -386,6 +402,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
  .footer-mail{
+padding-bottom: 9px;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
@@ -395,6 +412,7 @@ color: rgba(255, 255, 255, 0.6);
  }
 
  .footer-tel{
+padding-bottom: 60px;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
