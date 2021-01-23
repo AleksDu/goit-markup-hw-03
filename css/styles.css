@@ -219,40 +219,47 @@ border-radius: 4px;
 
 /* ========Features============ */
 .features-items{
+width: 1230px;
+padding-left: 15px;
+padding-right: 15px;
 margin-top: 94px;
 margin-bottom: 94px;
-margin-left: 115px;
+margin-left: auto;
+margin-right: auto;;
 }
 
 .features{
     display: flex;
 }
-.features-title+.features-title{
-}
+
 .features-title{
-    margin-bottom: 10px;
+margin-bottom: 10px;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
-
-}
-.features-text+.features-text{
-    /* padding-left: 30px; */
-    width: calc((100%-150px)/4);
 }
 
+
+.features .item {
+width: 270px;
+/* margin-right: 30px; */
+}
 .features-text{
-    width: 270px;
-    font-weight: normal;
+font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 color: var(--prymary-text-color);
 }
 
+.features .item:not(:last-child) {
+margin-right: 30px;
+}
+/* ========End Features============ */
+/* ========What we do============ */
 .title-2{
 font-weight: bold;
 font-size: 36px;
@@ -290,7 +297,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #var(--prymary-text-color);
 }
-/* ========End Features============ */
+/* ========What we do============ */
 /* ========Footer============ */
 
 .footer-address{
