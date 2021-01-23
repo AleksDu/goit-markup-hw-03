@@ -348,6 +348,7 @@ border-radius: 0px 0px 4px 4px;
 .footer{
     background-color: #2F303A;
     height: 252px;
+    margin-top: 94px;
 }
 .footer .container{
 width: 1230px;
@@ -373,7 +374,6 @@ display: flex;
 padding-top: 60px;
 padding-right: 0;
 margin-right: auto;
-margin-top: 183px;
 margin-bottom: 20px;
 
 width: 145px;
@@ -558,9 +558,42 @@ border-radius: 4px;
  
 /* ========End Portfolio list button======= */
 /* ========Portfolio progects============ */
- 
+ .progects{
+     width: 1230px;
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-bottom: 94px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     display: flex;
+     flex-wrap: wrap;     
+ }
+
+ .progects .item{
+width: 370px;
+height: 404px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+margin-right: 30px;
+
+ }
+
+ .progects .item:nth-child(n3){
+margin-right: 30px;
+ }
+
+ .progects .item:nth-last-child(-n+7){
+     margin-bottom: 30px;
+ }
 .progects-title{
-     font-weight: 700;
+padding-left: 24px;
+padding-top: 20px;
+padding-bottom: 4px;
+width: 322px;
+height: 36px;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
@@ -568,10 +601,11 @@ color: #212121;
  }
 
  .progects-text{
-     font-weight: normal;
+padding-left: 24px;
+font-weight: normal;
 font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
-color: #var(--prymary-text-color);
+color: var(--prymary-text-color);
  }
  /* ========End Portfolio progects============ */
