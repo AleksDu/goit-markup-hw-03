@@ -37,8 +37,7 @@ image{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    border: 2px solid rgb(66, 27, 27);
-}
+    }
   
     .site-nav .item+.item{
         margin-left: 50px;
@@ -392,7 +391,7 @@ color: #fff;
     color: teal;
 }
 .footer-address{
--top: 20px;
+padding-top: 20px;
 padding-bottom: 9px;
 font-weight: normal;
 font-size: 14px;
