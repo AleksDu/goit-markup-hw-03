@@ -358,8 +358,8 @@ margin-right: auto;
 margin-bottom: auto;
 }
 .footer .web{
-display: flex;
 margin-left: 0px;
+margin-bottom: 20px;
 
 font-family: Raleway;
 font-weight: 700;
@@ -392,7 +392,7 @@ color: #fff;
     color: teal;
 }
 .footer-address{
-padding-top: 20px;
+-top: 20px;
 padding-bottom: 9px;
 font-weight: normal;
 font-size: 14px;
