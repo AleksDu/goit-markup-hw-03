@@ -163,15 +163,20 @@ color: var(--prymary-text-color);
 /* ========End Header============ */
 
 /* ========Studio Button on backend============ */
+
+.title{
+padding-top: 200px;
+padding-bottom: 294px;
+
+}
+
 .title .container{
 background-color: #2F303A;
-padding-top: 200px;
-padding-bottom: 200px;
+
 }
 
 .title-buton-title{
 margin-bottom: 30px;
-
 
 font-weight: 900;
 font-size: 44px;
@@ -216,12 +221,15 @@ border-radius: 4px;
 /* ========End Studio Button on backend============ */
 
 /* ========Features============ */
+.features-items{
+
+padding-bottom: 94px;
+}
+
 .features-items .container{
 width: 1230px;
 padding-left: 15px;
 padding-right: 15px;
-margin-top: 94px;
-margin-bottom: 94px;
 margin-left: auto;
 margin-right: auto;;
 }
@@ -257,6 +265,11 @@ color: var(--prymary-text-color);
 margin-right: 30px;
 }
 
+.images{
+padding-bottom: 94px;
+
+}
+
 .title-2{
 min-width: 376px;
 margin-bottom: 50px;
@@ -275,7 +288,6 @@ padding-right: 15px;
 padding-left: 15px;
 margin-right: auto;
 margin-left: auto;
-margin-bottom: 94px;
 }
 
 .images .item:not(:last-child){
@@ -283,7 +295,9 @@ margin-right: 30px;
 }
 /* ========End Features============ */
 /* ========What we do============ */
-
+.our-team{
+padding-bottom: 94px;
+}
 .our-team .container{
 width: 1230px;
 padding-left: 15px;
@@ -295,7 +309,7 @@ margin-left: auto;
 min-width: 264px;
 margin-left: auto;
 margin-right: auto;
-margin-top: 188px;
+/* margin-top: 188px; */
 margin-bottom: 50px;
 
 font-weight: bold;
@@ -350,7 +364,8 @@ border-radius: 0px 0px 4px 4px;
 .footer{
     background-color: #2F303A;
     height: 252px;
-    margin-top: 94px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .footer .container{
 width: 1230px;
@@ -361,7 +376,7 @@ padding-left: 15px;
 
 .footer .web{
 margin-left: 0px;
-margin-bottom: 20px;
+/* margin-bottom: 20px; */
 
 font-family: Raleway;
 font-weight: 700;
@@ -373,7 +388,7 @@ color: #2196F3;
 
 .footer .logo{
 display: flex;
-padding-top: 60px;
+/* padding-top: 60px; */
 padding-right: 0;
 margin-right: auto;
 margin-bottom: 20px;
@@ -393,31 +408,29 @@ color: #fff;
     color: teal;
 }
 .footer-address{
-padding-top: 20px;
+/* padding-top: 20px; */
 padding-bottom: 9px;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
-/* or 171% */
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
  .footer-mail{
+display: inline-block;
 padding-bottom: 9px;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
-/* or 171% */
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
  }
 
  .footer-tel{
-padding-bottom: 60px;
+/* padding-bottom: 60px; */
 font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
-/* or 171% */
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
  }
@@ -566,12 +579,13 @@ border-radius: 4px;
 
  .progects{
      width: 1230px;
+     padding-top: 50px;
      padding-left: 15px;
      padding-right: 15px;
      padding-bottom: 94px;
      margin-left: auto;
      margin-right: auto;
-     margin-top: 50px;
+     /* margin-top: 50px; */
      display: flex;
      flex-wrap: wrap;     
  }
