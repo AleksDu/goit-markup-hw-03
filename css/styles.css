@@ -137,39 +137,41 @@ margin-left: 50px;
     margin-left: auto;
 }
 .icon-envelope-hover{
-display: inline-block;
 max-width: 16px;
 height: 12px;
-margin-left: auto;
 margin-right: 10px;
 fill: var(--prymary-text-color);
 }
-.icon-envelope-hover:hover
-.icon-envelope-hover:focus{
-fill:  #2196F3;
-}
 
-
-
-.auth-nav-contacts-link{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.142;
-letter-spacing: 0.02em;
-color: #2196F3;
+.auth-nav-contacts-link:hover .icon-envelope-hover,
+.auth-nav-contacts-link:focus .icon-envelope-hover{
 fill: #2196F3;
 }
 
-.auth-nav-tel{
+.auth-nav-contacts-link{
+display: flex;
+align-content: center;
+justify-content: center;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.02em;
 color: var(--prymary-text-color);
 }
+
+.auth-nav-tel{
+display: block;
+align-content: center;
+justify-content: center;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+color: var(--prymary-text-color);
+}
+
+
 .auth-nav-contacts-link:hover,.auth-nav-contacts-link:focus,
 .auth-nav-tel:hover,.auth-nav-tel:focus{
     color: #2196f3;
@@ -178,6 +180,17 @@ color: var(--prymary-text-color);
     color: #2196F3;
 }
 
+.icon-smartphone{
+width: 10px;
+height: 16px;
+margin-right: 10px;
+fill: var(--prymary-text-color);
+}
+
+.auth-nav-tel:hover .icon-smartphone,
+.auth-nav-tel:focus .icon-smartphone{
+    fill: #2196F3;
+}
 
 /* ========End Header============ */
 
@@ -188,7 +201,6 @@ padding-top: 200px;
 padding-bottom: 200px;
 margin: 0 auto;
 max-width: 1600px;
-
 }
 
 .title .container{
