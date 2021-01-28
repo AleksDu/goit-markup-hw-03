@@ -152,6 +152,7 @@ fill: #2196F3;
 display: flex;
 align-content: center;
 justify-content: center;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
@@ -160,9 +161,10 @@ color: var(--prymary-text-color);
 }
 
 .auth-nav-tel{
-display: block;
+display: flex;
 align-content: center;
 justify-content: center;
+align-self: center;
 
 font-weight: 500;
 font-size: 14px;
