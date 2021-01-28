@@ -137,21 +137,30 @@ margin-left: 50px;
     margin-left: auto;
 }
 .icon-envelope-hover{
-    display: inline-block;
-    width: 16px;
-    height: 12px;
-    color: #2196F3;
+display: inline-block;
+max-width: 16px;
+height: 12px;
+margin-left: auto;
+margin-right: 10px;
+fill: var(--prymary-text-color);
+}
+.icon-envelope-hover:hover
+.icon-envelope-hover:focus{
+fill:  #2196F3;
 }
 
-.icon-envelope-hover::before {
-content: "";
-}
+
+
 .auth-nav-contacts-link{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.02em;
 color: #2196F3;
+fill: #2196F3;
 }
 
 .auth-nav-tel{
@@ -177,6 +186,8 @@ color: var(--prymary-text-color);
 .title{
 padding-top: 200px;
 padding-bottom: 200px;
+margin: 0 auto;
+max-width: 1600px;
 
 }
 
@@ -457,7 +468,9 @@ color: rgba(255, 255, 255, 0.6);
 
  /* ========Portfolio list button======= */
 .section-buttons{
-    padding-top: 94px;
+padding-top: 94px;
+padding-bottom: 94px;
+
 }
 
 .list-button{
@@ -596,7 +609,6 @@ border-radius: 4px;
      padding-top: 50px;
      padding-left: 15px;
      padding-right: 15px;
-     padding-bottom: 94px;
      margin-left: auto;
      margin-right: auto;
      /* margin-top: 50px; */
