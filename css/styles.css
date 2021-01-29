@@ -290,6 +290,7 @@ height: 120px;
 padding: 25px 102px;
 background: #F5F4FA;
 border-radius: 4px;
+margin-bottom: 30px;
 }
 
 .clock{
@@ -298,6 +299,8 @@ height: 120px;
 padding: 25px 102px;
 background: #F5F4FA;
 border-radius: 4px;
+margin-bottom: 30px;
+
 }
 
 .diagram{
@@ -306,6 +309,7 @@ height: 120px;
 padding: 25px 102px;
 background: #F5F4FA;
 border-radius: 4px;
+margin-bottom: 30px;
 }
 
 .astronaut{
@@ -314,6 +318,7 @@ height: 120px;
 padding: 25px 102px;
 background: #F5F4FA;
 border-radius: 4px;
+margin-bottom: 30px;
 }
 
 .features-title{
@@ -376,6 +381,7 @@ margin-right: 30px;
 .our-team{
 padding-top: 94px;
 padding-bottom: 94px;
+background: #F5F4FA;
 }
 .our-team .container{
 width: 1230px;
@@ -388,7 +394,6 @@ margin-left: auto;
 min-width: 264px;
 margin-left: auto;
 margin-right: auto;
-/* margin-top: 188px; */
 margin-bottom: 50px;
 
 font-weight: bold;
@@ -413,7 +418,7 @@ color: #212121;
     padding-bottom: 10px;
 }
 .work{
-padding-bottom: 30px;
+padding-bottom: 16px;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.187;
@@ -463,11 +468,89 @@ border-radius: 50%;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
-/* ========What we do============ */
+/* ========EndWhat we do============ */
+/* ========stabbil clients============ */
+.clients{
+/* width: 1600px; */
+width: 1200px;
+padding-top: 94px;
+padding-bottom: 94px;
+margin-left:auto;
+margin-right: auto;
+background-color: #FFFFFF;
+}
+
+.clients.container{
+display: flex;
+
+height: 370px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left:auto;
+margin-right: auto;
+
+
+padding-left: 15px;
+padding-right: 15px;
+}
+.clients-list{
+    display: flex;
+}
+
+
+.title-clients{
+min-width: 390px;
+height: 42px;
+margin-bottom: 50px;
+
+margin-left:  auto;
+margin-right: auto;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.clients-link{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 170px;
+height: 90px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon{
+fill: #2196F3;
+}
+.clients-link:hover{
+border-color:  #2196F3;
+}
+
+/* .clients-item{
+margin-left: auto;
+margin-right: auto;
+} */
+.clients-item:not(:last-child){
+margin-right: 30px;
+}
+
+.clients-icon{
+width:44px;
+height:49px;
+fill: #AFB1B8;
+}
+/* ========End stabbil clients============ */
+
+
 /* ========Footer============ */
 .footer{
-    background-color: #2F303A;
-    height: 252px;
+background-color: #2F303A;
+height: 252px;
 padding-top: 60px;
 padding-bottom: 60px;
 }
