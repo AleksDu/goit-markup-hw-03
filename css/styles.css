@@ -284,6 +284,37 @@ margin-right: auto;;
 .features{
     display: flex;
 }
+.antenna{
+width: 270px;
+height: 120px;
+padding: 25px 102px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.clock{
+width: 270px;
+height: 120px;
+padding: 25px 102px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.diagram{
+width: 270px;
+height: 120px;
+padding: 25px 102px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.astronaut{
+width: 270px;
+height: 120px;
+padding: 25px 102px;
+background: #F5F4FA;
+border-radius: 4px;
+}
 
 .features-title{
 margin-bottom: 10px;
@@ -398,8 +429,33 @@ margin-right: auto;
 }
 .title-3-members .item:not(:last-child){
 margin-right: 30px;
+}
+.social-list{
+display: flex;
+justify-content: space-between;
+margin-left: 32px;
+margin-right: 32px;
+mb30
 
 }
+
+.social-list-icon{
+width: 20px;
+height: 20px;
+}
+
+.social-list-link{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+margin-bottom: 30px;
+background-color: white;
+border-radius: 50%;
+}
+
+
 .title-3-members .item{
     background: #FFFFFF;
 /* material shadow v1 */
