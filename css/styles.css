@@ -50,7 +50,6 @@ image{
     }
 
     .auth-nav .link{
-        display: block;
         padding-top: 32px;
         padding-bottom: 32px;
     }
@@ -128,6 +127,7 @@ color: #212121;
 .auth-nav{
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .auth-nav .item+.item{
 margin-left: 50px;
@@ -137,6 +137,7 @@ margin-left: 50px;
     margin-left: auto;
 }
 .icon-envelope-hover{
+    align-items: center;
 max-width: 16px;
 height: 12px;
 margin-right: 10px;
@@ -149,9 +150,9 @@ fill: #2196F3;
 }
 
 .auth-nav-contacts-link{
-display: flex;
+/* display: flex;
 align-content: center;
-justify-content: center;
+justify-content: center; */
 
 font-weight: 500;
 font-size: 14px;
@@ -162,7 +163,7 @@ color: var(--prymary-text-color);
 
 .auth-nav-tel{
 display: flex;
-align-content: center;
+align-items: center;
 justify-content: center;
 align-self: center;
 
@@ -183,6 +184,7 @@ color: var(--prymary-text-color);
 }
 
 .icon-smartphone{
+    align-items: center;
 width: 10px;
 height: 16px;
 margin-right: 10px;
@@ -203,10 +205,20 @@ padding-top: 200px;
 padding-bottom: 200px;
 margin: 0 auto;
 max-width: 1600px;
+height: 600px;
+
+
+background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, .4),
+    rgba(70, 71, 85, 0.4))
+  , url(../images/background.jpg);
+  background-color: #2F303A;
+   outline: 1px solid tomato;
 }
 
 .title .container{
-background-color: #2F303A;
+
 
 }
 
